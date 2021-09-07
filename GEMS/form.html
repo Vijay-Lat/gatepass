@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gemStyle.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>GEMS</title>
+</head>
+<body>
+    <ul class="nav nav-pills flexbileDisplay">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="report.html">Gate Pass</a>
+        </li>
+       
+          
+      </ul>
+    <div class='container'>     
+        <h1 class="brand">Welcome To <span>GEMS</span>  </h1>
+        <div class="wrapper">
+
+            <div class="comapany-info">
+           
+                <h3>ICS Corporation</h3>
+                
+                <ul>
+                    <li><i class="fa fa-address-card" ></i>100 Friars Blvd</li>
+                    <li><i class="fa fa-address-card" ></i> West Deptford </li>
+                    <li><i class="fa fa-address-card" ></i> NJ 08086 US</li>
+                    <img src="https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-443383.jpg&fm=jpg" alt="" style="width: 300px; height: 200px;" >
+                </ul>
+            </div>
+<div class="contact">
+    <h2 id="entry">Gate Pass Has Been Generated</h2>
+    <h3><a href="https://www.ics-corporation.com/" target="_blank">ICSCorporation.com</a></h3>
+    <form >
+        <p>
+            <label>Supplier Name</label>
+            <input type="text" name="name" id="sName" required>
+        </p>
+
+        <p>
+            <label>Supplier Address</label>
+            <input type="text" name="adress"id="sAddress" > 
+        </p>
+
+        <p>
+            <label>Pincode</label>
+            <input type="text" name="pincode" maxlength="6" id="pincode">
+        </p>
+
+        <p>
+            <label>Supplier Contact</label>
+            <input type="tel" name="sContact" maxlength="10"id="sContact">
+        </p>
+
+        <p>
+            <label>Supplier Email</label>
+            <input type="email" name="name" id="sEmail" required>
+        </p>
+
+        <p>
+            <label>Supplier Representative</label>
+            <input type="text" name="rep" id="rep">
+        </p>
+
+        <p>
+            <label>Receiver</label>
+            <input type="text" name="receiver" id="receiver">
+        </p>
+
+        <p>
+            <label>Order Date</label>
+            <input type="date" name="name" id="date">
+        </p>
+
+        <p>
+            <label>Bill No:</label>
+            <input type="text" name="name"id="billNo">
+        </p>
+
+        <p>
+            <label>Delivery Challan No:</label>
+            <input type="text" name="name" id="delNo">
+        </p>
+
+        <p>
+            <label>No.of Items</label>
+            <input type="text" name="name" id="items">
+        </p>
+        <p>
+            <label>Weight</label>
+            <input type="text" name="name" id="weight">
+        </p>
+
+        <p>
+            <label>Bill Amount</label>
+            <input type="text" name="name" id="amount">
+        </p>
+        <p class="full">
+            <button id="formSubmit" type="submit">Submit</button>
+        </p>
+
+    </form>
+</div>
+        </div>
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

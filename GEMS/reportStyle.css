@@ -1,0 +1,19 @@
+li{
+    list-style:none;
+    width: 500px;
+    text-align: center;
+}
+.customLife{
+    margin: 10px;
+}
+
+button{
+    background-color: coral;
+    border-radius: 5px;
+}
+
+@media print {
+
+   button{display: none;} 
+    
+}
